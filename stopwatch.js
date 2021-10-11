@@ -23,7 +23,7 @@ document.getElementById("resetTimer").addEventListener("click", () => {
   timerRef.innerHTML = "00 : 00 : 00 : 000 ";
 });
 
-
+//milliseconds increments by 10
 function displayTimer() {
   milliseconds += 10;
 
