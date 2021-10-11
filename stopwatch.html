@@ -1,30 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>A Simple StopWatch Web App</title>
-  <meta name="description" content="A Simple StopWatch Web App">
-  <meta name="awkto" content="awkto">
-  <meta property="og:title" content="A Simple StopWatch Web App">
-  <link rel="stylesheet" href="stopwatch.css">
+    <title>A Simple StopWatch Web App</title>
+    <meta name="description" content="A Simple StopWatch Web App" />
+    <meta name="awkto" content="awkto" />
+    <meta property="og:title" content="A Simple StopWatch Web App" />
+    <!--this links to the stylesheet css code-->
+    <link rel="stylesheet" href="stopwatch.css" />
+  </head>
 
-</head>
+  <body>
+    <!--this creates the display of the timer-->
+    <div class="timerDisplay">00 : 00 : 00 : 000</div>
 
-<body>
-  
-  <div class="timerDisplay">
-    00 : 00 : 00 : 000
- </div>
+    <!--this creates the container and buttons in it -->
+    <div class="buttons">
+      <button id="pauseTimer">Pause</button>
+      <button id="startTimer">Start</button>
+      <button id="resetTimer">Reset</button>
+    </div>
 
- <div class="buttons">
-    <button id="pauseTimer">Pause</button>
-    <button id="startTimer">Start</button>
-    <button id="resetTimer">Reset</button>
-  </div>
-
-  <script src="stopwatch.js"></script>
-</body>
+    <!--this links to the javascript code-->
+    <script src="stopwatch.js"></script>
+  </body>
 </html>
